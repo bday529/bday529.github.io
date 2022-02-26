@@ -716,25 +716,28 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
 @font-face{
     font-family:'almoni-dl-aaa-300';
     font-weight:300; /*(light)*/
-    src: url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-light-aaa.eot') format("eot"),
-    url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-light-aaa.woff2') format('woff2'),
-    url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-light-aaa.woff') format('woff');
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-300.eot');
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-300.eot?#iefix') format('embedded-opentype'),
+    url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-300.woff') format('woff'),
+    url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-300.ttf') format('truetype');
 }
 
 @font-face{
     font-family:'almoni-dl-aaa-400';
     font-weight:400; /*(regular)*/
     font-style: normal;
-    src: url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-regular-aaa.eot') format("eot"),
-    url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-regular-aaa.woff2') format('woff2'),
-    url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-regular-aaa.woff') format('woff');
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-400.eot');
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-400.eot?#iefix') format('embedded-opentype'),
+    url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-400.woff') format('woff'),
+    url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-400.ttf') format('truetype');
 }
 
 @font-face{
     font-family:'almoni-dl-aaa-700';
-    src: url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-bold-aaa.eot') format("eot"),
-    url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-bold-aaa.woff2') format('woff2'),
-    url('//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Almoni/v1/almoni-bold-aaa.woff') format('woff');
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-700.eot');
+    src: url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-700.eot?#iefix') format('embedded-opentype'),
+    url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-700.woff') format('woff'),
+    url('//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/open-source/almoni-dl-aaa-700.ttf') format('truetype');
 }
 
 @font-face{
@@ -1493,442 +1496,123 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
     url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/KnedgeBold/v1/knedgebold-webfont.svg") format("svg");
 }
 
-/* Japanese fonts for vertical text QA */
 @font-face {
     font-family: "TsukushiGothic";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiGothic/v2/WIX-TsukuGoPr5-R.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiGothic/v1/WIX-TsukuGoPr5-R.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiGothic/v1/WIX-TsukuGoPr5-R.woff") format("woff")
 }
 @font-face {
     font-family: "TsukushiGothic";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiGothic/v2/WIX-TsukuGoPr5-D.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiGothic/v1/WIX-TsukuGoPr5-D.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiGothic/v1/WIX-TsukuGoPr5-D.woff") format("woff")
 }
 
 @font-face {
     font-family: "Rodin-Light";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v2/WIX-RodinProN-L.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v1/WIX-RodinProN-L.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v1/WIX-RodinProN-L.woff") format("woff")
 }
 /* mapped to rodin-medium*/
 @font-face {
     font-family: "Rodin-Light";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v2/WIX-RodinProN-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v1/WIX-RodinProN-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v1/WIX-RodinProN-M.woff") format("woff")
 }
 
 @font-face {
     font-family: "Rodin-Demi-Bold";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v2/WIX-RodinProN-DB.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v1/WIX-RodinProN-DB.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Rodin/v1/WIX-RodinProN-DB.woff") format("woff")
 }
 
 @font-face {
     font-family: "NewCezanne";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/NewCezanne/v2/WIX-NewCezanneProN-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/NewCezanne/v1/WIX-NewCezanneProN-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/NewCezanne/v1/WIX-NewCezanneProN-M.woff") format("woff")
 }
 
 @font-face {
     font-family: "UDKakugoLarge";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDKakugoLarge/v2/WIX-UDKakugo_LargePr6N-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDKakugoLarge/v1/WIX-UDKakugo_LargePr6N-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDKakugoLarge/v1/WIX-UDKakugo_LargePr6N-M.woff") format("woff")
 }
 @font-face {
     font-family: "UDKakugoLarge";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDKakugoLarge/v2/WIX-UDKakugo_LargePr6N-DB.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDKakugoLarge/v1/WIX-UDKakugo_LargePr6N-DB.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDKakugoLarge/v1/WIX-UDKakugo_LargePr6N-DB.woff") format("woff")
 }
 
 @font-face {
     font-family: "TsukushiMaruGothic";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiMaruGothic/v2/WIX-TsukuARdGothicStd-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiMaruGothic/v1/WIX-TsukuARdGothicStd-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiMaruGothic/v1/WIX-TsukuARdGothicStd-M.woff") format("woff")
 }
 @font-face {
     font-family: "TsukushiMaruGothic";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiMaruGothic/v2/WIX-TsukuARdGothicStd-B.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiMaruGothic/v1/WIX-TsukuARdGothicStd-B.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiMaruGothic/v1/WIX-TsukuARdGothicStd-B.woff") format("woff")
 }
 
 @font-face {
     font-family: "Seurat";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Seurat/v2/WIX-SeuratProN-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Seurat/v1/WIX-SeuratProN-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Seurat/v1/WIX-SeuratProN-M.woff") format("woff")
 }
 @font-face {
     font-family: "Seurat";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Seurat/v2/WIX-SeuratProN-DB.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Seurat/v1/WIX-SeuratProN-DB.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Seurat/v1/WIX-SeuratProN-DB.woff") format("woff")
 }
 
 @font-face {
     font-family: "TsukushiBMaruGothic";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiBMaruGothic/v2/WIX-TsukuBRdGothicStd-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiBMaruGothic/v1/WIX-TsukuBRdGothicStd-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiBMaruGothic/v1/WIX-TsukuBRdGothicStd-M.woff") format("woff")
 }
 
 @font-face {
     font-family: "UDMincho";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDMincho/v2/WIX-UDMinchoPr6N-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDMincho/v1/WIX-UDMinchoPr6N-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDMincho/v1/WIX-UDMinchoPr6N-M.woff") format("woff")
 }
 @font-face {
     font-family: "UDMincho";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDMincho/v2/WIX-UDMinchoPr6N-DB.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDMincho/v1/WIX-UDMinchoPr6N-DB.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/UDMincho/v1/WIX-UDMinchoPr6N-DB.woff") format("woff")
 }
 
 @font-face {
     font-family: "TsukushiOldMincho";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiOldMincho/v2/WIX-TsukuAOldMinPr6N-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiOldMincho/v1/WIX-TsukuAOldMinPr6N-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/TsukushiOldMincho/v1/WIX-TsukuAOldMinPr6N-M.woff") format("woff")
 }
 
 @font-face {
     font-family: "Matisse";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Matisse/v2/WIX-MatisseProN-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Matisse/v1/WIX-MatisseProN-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Matisse/v1/WIX-MatisseProN-M.woff") format("woff")
 }
-
 @font-face {
     font-family: "Matisse";
     font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Matisse/v2/WIX-MatisseProN-DB.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Matisse/v1/WIX-MatisseProN-DB.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Matisse/v1/WIX-MatisseProN-DB.woff") format("woff")
 }
 
 @font-face {
     font-family: "Skip";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Skip/v2/WIX-SkipStd-M.woff2") format("woff2")
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Skip/v1/WIX-SkipStd-M.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Skip/v1/WIX-SkipStd-M.woff") format("woff")
 }
 
 @font-face {
     font-family: "Cookhand";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Cookhand/v2/WIX-CookHandStd-R.woff2") format("woff2")
-}
-
-@font-face {
-    font-family: "Adobe-Caslon-W08-SmBd";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Adobe_Caslon/v1/AdobeCaslonW08-Semibold.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Adobe_Caslon/v1/AdobeCaslonW08-Semibold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Avenir-LT-W05_85-Heavy";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Avenir-LT-W05_35-Light";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff") format("woff");
-}
-
-@font-face{
-    font-family:"Brandon-Grot-W05-Light";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/BrandonGrot/v1/BrandonGrotesqueCondW05-Lt.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/BrandonGrot/v1/BrandonGrotesqueCondW05-Lt.woff") format("woff");
-}
-
-@font-face{
-    font-family:"Bree-W05-Thin-Oblique";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Bree_Bundle/v1/BreeW05-ThinOblique.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Bree_Bundle/v1/BreeW05-ThinOblique.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Geotica-W05-Four-Open";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Geotica/v1/GeoticaFourW05-Open.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Geotica/v1/GeoticaFourW05-Open.woff") format("woff");
-}
-
-@font-face{
-    font-family:"Didot-W05-Italic";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Linotype_Didot/v1/DidotLTW05-Italic.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Linotype_Didot/v1/DidotLTW05-Italic.woff") format("woff");
-}
-
-@font-face{
-    font-family:"Lulo-Clean-W05-One-Bold";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Lulo_Clean/v1/LuloCleanW05-OneBold.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Lulo_Clean/v1/LuloCleanW05-OneBold.woff") format("woff");
-}
-
-@font-face{
-    font-family:"BaskervilleMTW05-SmBdIt";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Monotype_Baskerville/v1/BaskervilleMTW05-SemiboldIt.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Monotype_Baskerville/v1/BaskervilleMTW05-SemiboldIt.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Museo-W05-700";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Museo/v1/MuseoW05-700.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Museo/v1/MuseoW05-700.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Museo-Slab-W05-100";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Museo_Slab/v1/MuseoSlabW05-100.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Museo_Slab/v1/MuseoSlabW05-100.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Futura-LT-W05-Book";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Futura_Complete/v1/FuturaLTW05-Book.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Futura-LT-W05-Light";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Futura_Complete/v1/FuturaLTW05-LightCondensed.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Futura_Complete/v1/FuturaLTW05-LightCondensed.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Nimbus-Sans-TW05Con";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Nimbus/v1/NimbusSansW05-Regular.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Nimbus/v1/NimbusSansW05-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Bodoni-W05-Poster";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/PosterBodoni/v1/PosterBodoniBTWGL4W05-Roman.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/PosterBodoni/v1/PosterBodoniBTWGL4W05-Roman.woff") format("woff");
-}
-
-@font-face{
-    font-family:"Proxima-N-W05-Reg";
-        src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/ProximNova/v1/ProximaNovaW05-Regular.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/ProximNova/v1/ProximaNovaW05-Regular.woff") format("woff");
-}
-
-@font-face{
-    font-family:"Fraunces_120pt-Light";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-Light.ttf") format("truetype");
-}
-
-@font-face{
-    font-family:"Fraunces_120pt-Light";
-    font-style: italic;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-LightItalic.ttf") format("truetype");
-}
-
-@font-face{
-    /* Fraunces_120pt-Regular */
-    font-family:"Fraunces_120pt-Light";
-    font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-Regular.ttf") format("truetype");
-}
-@font-face{
-    /* Fraunces_120pt-Regular */
-    font-family:"Fraunces_120pt-Light";
-    font-weight: 700;
-    font-style: italic;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-Italic.ttf") format("truetype");
-}
-
-
-@font-face{
-    font-family:"Fraunces_120pt-SemiBold";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-SemiBold.ttf") format("truetype");
-}
-
-@font-face{
-    font-family:"Fraunces_120pt-SemiBold";
-    font-style: italic;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-SemiBoldItalic.ttf") format("truetype");
-}
-
-@font-face{
-    /* Fraunces_120pt-Bold */
-    font-family:"Fraunces_120pt-SemiBold";
-    font-weight: 700;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-Bold.ttf") format("truetype");
-}
-
-@font-face{
-    /* Fraunces_120pt-Bold */
-    font-family:"Fraunces_120pt-SemiBold";
-    font-weight: 700;
-    font-style: italic;
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Fraunces/v1/Fraunces_120pt-BoldItalic.ttf") format("truetype");
-}
-
-
-/*
-    Heebo light (300) > Heebo Regular (400)
-    Heebo medium (500) > Heebo Bold (700)
-    Rubik light (300) > Rubik regular (400)
-    Rubik Medium (500) > Rubik Bold (700)
-    Assistant light (300) > Assistant regular (400)
-    Assistant Semi bold (600) > Assistant Bold (700)
-    Karantina light (300)  > Karantina regular (400)
-*/
-@font-face{
-    font-family:"Heebo-Light";
-    src: url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mi.eot") format("eot"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mm.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mg.woff") format("woff"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mj.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mh&skey=878db4aed11f133b&v=v15#Heebo") format("svg");
-}
-
-@font-face{
-    /* Heebo Regular */
-    font-family:"Heebo-Light";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mi.eot") format("eot"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mm.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mg.woff") format("woff"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mj.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mh&skey=878db4aed11f133b&v=v15#Heebo") format("svg");
-}
-
-@font-face{
-    font-family:"Heebo-Medium";
-    src: url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyysd0mi.eot") format("eot"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6xZUCbLRAHxK1Euyysd0mm.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyysd0mg.woff") format("woff"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyysd0mj.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyysd0mh&skey=878db4aed11f133b&v=v15#Heebo") format("svg");
-}
-
-@font-face{
-    /* Heebo Bold */
-    font-family:"Heebo-Medium";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiusd0mi.eot") format("eot"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiusd0mm.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mg.woff") format("woff"),
-    url("//fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiusd0mj.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiusd0mh&skey=878db4aed11f133b&v=v15#Heebo") format("svg");
-}
-
-@font-face{
-    font-family:"Rubik-Light";
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UQ.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1VQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1Uw.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UA.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1Ug&skey=cee854e66788286d&v=v14#Rubik") format("svg");
-}
-@font-face{
-    font-family:"Rubik-Light";
-    font-style: italic;
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Ux.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0U1.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uz.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uw.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uy&skey=80e52bf85b0b1958&v=v14#Rubik") format("svg");
-}
-
-@font-face{
-    /* Rubik regular */
-    font-family:"Rubik-Light";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UQ.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1VQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1Uw.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UA.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1Ug&skey=cee854e66788286d&v=v14#Rubik") format("svg");
-}
-@font-face{
-    /* Rubik regular */
-    font-family:"Rubik-Light";
-    font-weight: 700;
-    font-style: italic;
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0Ux.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0U1.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U3f4Q.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0Uw.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0Uy&skey=80e52bf85b0b1958&v=v14#Rubik") format("svg");
-}
-
-@font-face{
-    font-family:"Rubik-Medium";
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UQ.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1VQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1Uw.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UA.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1Ug&skey=cee854e66788286d&v=v14#Rubik") format("svg");
-}
-@font-face{
-    font-family:"Rubik-Medium";
-    font-style: italic;
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Ux.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0U1.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uz.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uw.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uy&skey=80e52bf85b0b1958&v=v14#Rubik") format("svg");
-}
-
-@font-face{
-    /* Rubik Bold  */
-    font-family:"Rubik-Medium";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UQ.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1VQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1Uw.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UA.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1Ug&skey=cee854e66788286d&v=v14#Rubik") format("svg");
-}
-@font-face{
-    /* Rubik Bold  */
-    font-family:"Rubik-Medium";
-    font-weight: 700;
-    font-style: italic;
-    src: url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUx.eot") format("eot"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEU1.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUz.woff") format("woff"),
-    url("//fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUw.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUy&skey=80e52bf85b0b1958&v=v14#Rubik") format("svg");
-}
-
-@font-face{
-    font-family:"Assistant-Light";
-    src: url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGA.eot") format("eot"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGI.woff") format("woff"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGE.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGM&skey=d0a91b9f68d720c8&v=v8#Assistant") format("svg");
-}
-
-@font-face{
-    /* Assistant-Regular */
-    font-family:"Assistant-Light";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGA.eot") format("eot"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGI.woff") format("woff"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGE.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGM&skey=d0a91b9f68d720c8&v=v8#Assistant") format("svg");
-}
-
-@font-face{
-    font-family:"Assistant-SemiBold";
-    src: url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGA.eot") format("eot"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGI.woff") format("woff"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGE.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGM&skey=d0a91b9f68d720c8&v=v8#Assistant") format("svg");
-}
-
-@font-face{
-    /* Assistant-Bold */
-    font-family:"Assistant-SemiBold";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGA.eot") format("eot"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGQ.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGI.woff") format("woff"),
-    url("//fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGE.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGM&skey=d0a91b9f68d720c8&v=v8#Assistant") format("svg");
-}
-
-@font-face{
-    font-family:"Karantina-Light";
-    src: url("//fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxXCgv_fRL.eot") format("eot"),
-    url("//fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxXCgv_fRP.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxXCgv_fRJ.woff") format("woff"),
-    url("//fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxXCgv_fRK.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=buExpo24ccnh31GVMABxXCgv_fRI&skey=8d3e1bd4277baf91&v=v1#Karantina") format("svg");
-}
-
-@font-face{
-    /* Karantina-Regular */
-    font-family:"Karantina-Light";
-    font-weight: 700;
-    src: url("//fonts.gstatic.com/s/karantina/v1/buE0po24ccnh31GVMAB59Qo-.eot") format("eot"),
-    url("//fonts.gstatic.com/s/karantina/v1/buE0po24ccnh31GVMAB59Qo6.woff2") format("woff2"),
-    url("//fonts.gstatic.com/s/karantina/v1/buE0po24ccnh31GVMAB59Qo8.woff") format("woff"),
-    url("//fonts.gstatic.com/s/karantina/v1/buE0po24ccnh31GVMAB59Qo_.ttf") format("truetype"),
-    url("//fonts.gstatic.com/l/font?kit=buE0po24ccnh31GVMAB59Qo9&skey=cbb9885df2de42c0&v=v1#Karantina") format("svg");
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Cookhand/v1/WIX-CookHandStd-R.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Japanese/Cookhand/v1/WIX-CookHandStd-R.woff") format("woff")
 }
